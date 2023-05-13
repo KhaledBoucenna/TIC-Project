@@ -1,0 +1,106 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+.bground {
+    background-image: url(school.jpg);
+    background-position: top;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+body{
+    background-image: url(class.jpg);
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+.border {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.logo {
+    color: dodgerblue;
+    font-size: 38px;
+    padding-right: 30px;
+}
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0px 30px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a:hover {
+    color: #ea1538;
+    transition: .3s;
+}
+h2 {
+    font-family: 'Poppins' ,sans-serif;
+    position: relative;
+    font-size: 8vw;
+    color: #252839;
+    -webkit-text-stroke: 0.3vw #383d52;
+    text-transform: uppercase;
+}
+h2::before {
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    color: #01d8fe;
+    -webkit-text-stroke: 0vw #383d52;
+    border-right: 2px solid #01d8fe;
+    overflow: hidden;
+    animation: animate 6s linear infinite;
+}
+@keyframes animate {
+    0%,10%,100%{
+        width: 0;
+    }
+    70%,90%{
+        width: 100%;
+    }
+}
+h3 {
+    font-size: xx-large;
+}
+p {
+    font-weight: bolder;
+}
+.back {
+    background-image: url(image.jpg);
+    background-position: top;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+ol {
+    padding-left: 3em;
+    font-weight: 200;
+}
+span {
+    font-weight: bold;
+    font-size: x-large;
+    color: #0031b9;
+}
+html {
+    scroll-behavior: smooth;
+}
+b {
+    color: red;
+}
