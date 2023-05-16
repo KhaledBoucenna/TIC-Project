@@ -1,32 +1,42 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <style>@import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Text&display=swap');
+        </style>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device=width, initial-scale=1.0">
 <link rel="stylesheet" href="second.css">
 <title>TIC</title>
     </head>
 <body>
-    <div class="chap">
+    <div class="wrapper">
+    <div>
     <nav>
         <h3 class="logo">TIC</h3>
         <ul>
-            <li><a href="#chap1">Chapitre I</a></li>
-            <li><a href="#chap2">Chapitre II</a></li>
-            <li><a href="#chap3">Chapitre III</a></li>
-            <li><a href="#chap4">Chapitre IV</a></li>
-            <li><a href="#chap5">Chapitre V</a></li>
+            <li><a class="button" href="#chap1">Chapitre I</a></li>
+            <li><a class="button" href="#chap2">Chapitre II</a></li>
+            <li><a class="button" href="#chap3">Chapitre III</a></li>
+            <li><a class="button" href="#chap4">Chapitre IV</a></li>
+            <li><a class="button" href="#chap5">Chapitre V</a></li>
         </ul>
     </nav>
     </div>
-<div class="border"><h2 data-text="Bienvenue">Bienvenue</h2></div>
-<div class="back">
-    <div id="chap1">
-    <h3>Chapitre I: Introduction</h3>
-    <p><br>
-    <ol>
-        <li><span>Introduction au Web et à Internet :</span></li>
-        &nbsp;&nbsp;&nbsp;&nbsp;Dans cette introduction, nous abordons la relation entre le Web et Internet. Le Web, ou World Wide Web (WWW), est un système hypertexte public sur Internet qui permet 
+    </div>
+        <div class="border"><h2 data-text="Bienvenue">Bienvenue</h2></div>
+                <div id="chap1">
+        <h3>Chapitre I: Introduction</h3>
+        <div class="box"><img src="web.jpg"></div>
+        <div class="info">
+            <ul>
+                <li><p>BOUCENNA Khaled/212135068730/MI/Section3/Groupe2</p></li>
+                <li><p>BAYOU Lyamine/212132025722/MI/Section3/Groupe2</p></li>
+            </ul>
+        </div>
+        <p><br>
+            <ol>
+        <span><li>Introduction au Web et à Internet :</li></span>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;Dans cette introduction, nous abordons la relation entre le Web et Internet. Le Web, ou World Wide Web (WWW), est un système hypertexte public sur Internet qui permet 
         aux utilisateurs de consulter des pages web via un navigateur. Le Web est une application spécifique d'Internet, qui est un support de communication général.<br>
         <b>Principes du World Wide Web :</b><br>
         &nbsp;&nbsp;&nbsp;&nbsp;Le World Wide Web repose sur le principe d'accéder à des documents textuels situés sur des machines accessibles par Internet. Ces documents sont reliés entre eux par
@@ -34,9 +44,9 @@
         et des vidéos, du contenu applicatif et interactif.<br>
         <b>URL (Uniform Resource Locator) :</b><br>
         &nbsp;&nbsp;&nbsp;&nbsp;Une URL, ou Uniform Resource Locator, est un lien hypertexte permettant de suivre un lien et d'ouvrir une nouvelle page web. Elle contient l'adresse du serveur où se 
-        trouve la ressource et l'adresse spécifique de la page sur le serveur. Par exemple: http://example.com/un/chemin/page.html.<br>
+        trouve la ressource et l'adresse spécifique de la page sur le serveur. Par exemple: http://example.com/un/chemin/page.html.</p>
         <span><li>Aspects techniques du Web :</li></span>
-        &nbsp;&nbsp;&nbsp;&nbsp;Dans cette section, nous abordons les aspects techniques fondamentaux du Web. <br>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;Dans cette section, nous abordons les aspects techniques fondamentaux du Web. <br>
         <b>I) URL (Uniform Resource Locator) :</b><br>
         &nbsp;&nbsp;&nbsp;&nbsp;Les URL constituent l'un des mécanismes clés du Web. Elles permettent aux utilisateurs d'accéder à un ensemble de ressources en spécifiant l'emplacement des ressources
         sur des serveurs accessibles via Internet. Le mécanisme de localisation peut faire appel au protocole DNS pour traduire les noms de domaine en adresses IP.<br>
@@ -47,147 +57,244 @@
         <b>III) HTML (HyperText Markup Language) :</b><br>
         &nbsp;&nbsp;&nbsp;&nbsp;HTML est un langage de description utilisé pour structurer et présenter les pages web. Il permet d'inclure du texte, des images et d'autres objets dans les pages.
         HTML prend également en charge les liens hypertexte, qui permettent de naviguer entre les pages web, et il est utilisé pour programmer de 
-        manière déclarative, en décrivant la structure et le contenu de la page plutôt qu'en spécifiant des actions spécifiques.<br>
+        manière déclarative, en décrivant la structure et le contenu de la page plutôt qu'en spécifiant des actions spécifiques.</p>
         <span><li>Page web et site web :</li></span>
-        &nbsp;&nbsp;&nbsp;&nbsp;Une page web est un document multimédia contenant du texte, des images, des liens et des possibilités d'interaction. Elle est décrite élément par élément à l'aide de 
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;Une page web est un document multimédia contenant du texte, des images, des liens et des possibilités d'interaction. Elle est décrite élément par élément à l'aide de 
         langages de description tels que HTML, XHTML ou HTML5, et est stockée dans un fichier HTML. Une page web est interprétée et affichée par un navigateur, et elle est 
         localisée sur Internet grâce à une adresse URL. Une page web permet également d'accéder à d'autres pages en suivant des liens. 
         Un site web, quant à lui, est un regroupement de pages web liées entre elles par des liens hypertextes.Il est généralement émis par une entité spécifique et est 
         accessible à partir d'une page d'accueil et d'une URL de base communes. Les sites web sont souvent organisés en arborescence de dossiers et de fichiers, et permettent 
-        de définir des chemins relatifs.<br>
+        de définir des chemins relatifs.</p>
         <span><li>Création d'une page web HTML :</li></span>
-        &nbsp;&nbsp;&nbsp;&nbsp;Un document HTML est un fichier texte structuré à l'aide de balises. Il est interprété et visualisé dans un navigateur. La création d'une page web HTML peut se faire à
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;Un document HTML est un fichier texte structuré à l'aide de balises. Il est interprété et visualisé dans un navigateur. La création d'une page web HTML peut se faire à
         l'aide d'un éditeur de pages web tel que Dreamweaver, ou simplement avec un éditeur de texte tel que Bloc-notes ou Wordpad. <br>
-        Les principes du langage HTML incluent l'utilisation de balises telles que ,  et  pour délimiter le début, l'entête, le titre et le corps du
-        document. Des balises spécifiques comme  à  sont utilisées pour les titres de niveau correspondant, et  est utilisé pour les paragraphes.<br>
+        Les principes du langage HTML incluent l'utilisation de balises telles que &lt;html&gt;,&lt;head&gt;,&lt;title&gt;,&lt;body&gt;  et  pour délimiter le début, l'entête, le titre et le corps du
+        document. Des balises spécifiques comme &lt;h1&gt; à &lt;h6&gt; sont utilisées pour les titres de niveau correspondant, et &lt;p&gt; est utilisé pour les paragraphes.<br>
         &nbsp;&nbsp;&nbsp;&nbsp;En résumé, le Web est un système hypertexte public sur Internet qui permet d'accéder à des documents textuels reliés entre eux par des liens hypertexte. <br>
         Les URL sont utilisées pour localiser les ressources sur des serveurs accessibles via Internet. HTTP facilite les communications entre les navigateurs et les serveurs 
-        web, et HTML est utilisé pour structurer et présenter les pages web de manière interactive.</p>
+        web, et HTML est utilisé pour structurer et présenter les pages web de manière interactive.</p><br>
+    </p>
     </ol>
-    </div>
-    <div class="bground">
+        </div>
     <div id="chap2">
-        <h3>Chapitre II: Les réseaux informatiques</h3>
-        <p>
+        <h3>Chapitre II: Les réseaux informatiques</h3>  
+                <div class="box"><img src="Chapitre 2.jpg"></div>
+                <div class="info">
+            <ul>
+                <li><p>BEGGAH Khadidja/212131049258/MI/Section3/Groupe2</p></li>
+                <li><p>BOUROUF Sarah/212131079457/MI/Section3/Groupe2</p></li>
+            </ul>
+        </div>
+        <p><br>
             <ol>
             <span><li><span>Réseaux Network :</span></li></span>
-&nbsp;&nbsp;&nbsp;&nbsp;Est un ensemble d'ordinateurs de périphérique autonomes connectés entre eux pour échanger des informations numériques selon des règles bien définies.<br>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;Est un ensemble d'ordinateurs de périphérique autonomes connectés entre eux pour échanger des informations numériques selon des règles bien définies.<br>
 <strong>Mise en réseaux :</strong><br>
 &nbsp;&nbsp;&nbsp;&nbsp;est la mise en œuvre d'outils et de taches pour relier les ordinateurs afin qu'ils puissent partager des ressources.<br>
 <strong>Evolution :</strong> <br>
 &nbsp;&nbsp;&nbsp;&nbsp;les réseaux informatiques sont nés du besoin de faire communiquer des terminaux distants avec un site centrale puis des ordinateurs entre eux. Un réseau repose sur deux notions fondamentales :<br>
- •L'interconnexion.<br>
- •La communication. <br>
+ • L'interconnexion.<br>
+ • La communication. </p>
 	<span><li>Les caractéristiques de base d'un réseau :</li></span>
- •La topologie( physique, logique ).<br>
- •Le débit exprimé en bits/s (ou bps).<br>
- •La distance maximale (ou portée).<br>
- •Le nombre de nœuds maximum.<br>
+ <p>• La topologie( physique, logique ).<br>
+ • Le débit exprimé en bits/s (ou bps).<br>
+ • La distance maximale (ou portée).<br>
+ • Le nombre de nœuds maximum.</p>
 <span><li>Quelques terminologies en réseau :</li></span>
- •Station de travail (PC, MAC, SUN Terminal X, …).<br>
- •Nœud : C'est une station de travail, une imprimante, un serveur ou toute entité pouvant être adressée par un numéro unique.<br>
- •Paquet : C'est la plus petite unité d'information pouvant être envoyé sur le réseau.<br>
- •Réseaux Hétérogènes : Les ordinateurs reliés au réseau sont de constructeurs divers.<br>
- •Le Débit mesure une quantité de données numériques (bits).<br>
+ <p>• Station de travail (PC, MAC, SUN Terminal X, …).<br>
+ • Nœud : C'est une station de travail, une imprimante, un serveur ou toute entité pouvant être adressée par un numéro unique.<br>
+ • Paquet : C'est la plus petite unité d'information pouvant être envoyé sur le réseau.<br>
+ • Réseaux Hétérogènes : Les ordinateurs reliés au réseau sont de constructeurs divers.<br>
+ • Le Débit mesure une quantité de données numériques (bits).</p>
 <span><li>Éléments d'un réseau :</li></span>
- •Les ordinateurs équipés d'une carte de communication.<br>
- •Les logiciels navigateur, client de messagerie, serveur web, …<br>
- •Les supports du : LAN, prises RJ45, WIFI: WAN l, ADSL, fibre optique, …<br>
- •Les équipements d'interconnexion du LAN :  concentrateur, commutateur, WAN...<br>
-
+ <p>• Les ordinateurs équipés d'une carte de communication.<br>
+ • Les logiciels navigateur, client de messagerie, serveur web, …<br>
+ • Les supports du : LAN, prises RJ45, WIFI: WAN l, ADSL, fibre optique, …<br>
+ • Les équipements d'interconnexion du LAN :  concentrateur, commutateur, WAN...</p>
 <span><li>Classification des réseaux :</li></span>
 <b>5.1. Par portée l'envergure (La distance) :</b><br>
 <strong>LAN</strong>, <strong>MAN</strong> et <strong>WAN</strong>.<br>
- <b>•LAN (Local Area Network = réseau local d'entreprise) :</b><br>
-Est constitué d'ordinateurs et de périphériques reliés entre euxdans une même entreprise, ce type de réseaux considéré commeprivé.( centaines de machines, vitesse de transmission entre 10 à 100 Mb/s)
- <b>•MAN : (Métropolitan Area Network = Réseau métropolitain ou urbain) :</b><br>
-Correspond à la réunion de plusieurs réseaux locaux (LAN) dans une zone géographique spécifique il utilise le cablecaoxial comme support physique pour assurer une transmission de données efficace sur une longue distance
- <b>•WAN : (Wide Area Network = réseau grande distance) :</b> <br>
-Est un type de réseau informatique qui couvre de vaste distance, que ce soit à l'échelle d'un pays ou à l'échelle mondiale. Il est composé de réseaux publics.
-
+ <b>• LAN (Local Area Network = réseau local d'entreprise) :</b><br>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;Est constitué d'ordinateurs et de périphériques reliés entre euxdans une même entreprise, ce type de réseaux considéré commeprivé.( centaines de machines, vitesse de transmission entre 10 à 100 Mb/s).</p>
+ <b>• MAN : (Métropolitan Area Network = Réseau métropolitain ou urbain) :</b><br>
+ <p>&nbsp;&nbsp;&nbsp;&nbsp;Correspond à la réunion de plusieurs réseaux locaux (LAN) dans une zone géographique spécifique il utilise le cablecaoxial comme support physique pour assurer une transmission de données efficace sur une longue distance.</p>
+ <b>• WAN : (Wide Area Network = réseau grande distance) :</b> <br>
+ <p>&nbsp;&nbsp;&nbsp;&nbsp;Est un type de réseau informatique qui couvre de vaste distance, que ce soit à l'échelle d'un pays ou à l'échelle mondiale. Il est composé de réseaux publics.</p>
 <b>5.2. L'ouverture (leur utilisation) :</b><br>
- •Intranet (privés internes).<br>
- •Extranet (privé internes et externes).<br>
- •Internet Les réseaux publics (réseau des réseaux), nationaux ou internationaux interconnectés à l'échelle de la planète.<br>
+ <p>• Intranet (privés internes).<br>
+ • Extranet (privé internes et externes).<br>
+ • Internet Les réseaux publics (réseau des réseaux), nationaux ou internationaux interconnectés à l'échelle de la planète.</p>
 <b>5.3. Les supports de connexion :</b>
- •Réseaux filaires : (Réseau Téléphonique Commuté) <br>
- •Réseaux sans fils : Les ondes radios, Les satellites, Le Bluetooth ….<br>
-
+ <p>• Réseaux filaires : (Réseau Téléphonique Commuté) <br>
+ • Réseaux sans fils : Les ondes radios, Les satellites, Le Bluetooth ….</p>
 <b>5.4. Le type d'organisation :</b><br>
- •Les réseaux Postes à Postes : Chaque ordinateur est un peu serveur et un peu client. Chaque ordinateur est libre de partager ses ressources. 
- •Les réseaux Clients/Serveurs: La plupart des stations sont des « postes clients »
+ <p>• Les réseaux Postes à Postes : Chaque ordinateur est un peu serveur et un peu client. Chaque ordinateur est libre de partager ses ressources. <br>
+ • Les réseaux Clients/Serveurs: La plupart des stations sont des « postes clients »</p>
 <span><li>le type de topologie :</li></span> 
 <b>Les réseaux en bus:</b><br>
-&nbsp;&nbsp;&nbsp;&nbsp;Les machines sont reliées par un câble coaxial (le bus), et chaque ordinateur est connecté en série sur le bus par l'intermédiaire de connecteurs BNC. Cependant,ces types de réseaux ont perdu en popularité ces dernières années en raison de leurs limitations.<br>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;Les machines sont reliées par un câble coaxial (le bus), et chaque ordinateur est connecté en série sur le bus par l'intermédiaire de connecteurs BNC. Cependant,ces types de réseaux ont perdu en popularité ces dernières années en raison de leurs limitations.</p>
  <b>Les réseaux en étoile:</b><br>
- &nbsp;&nbsp;&nbsp;&nbsp;Toutes les stations sont connectées à un commutateur. SWITCH(HUB = concentrateur) : Les stations émettent vers ce concentrateur qui renvoie les données vers tous les autres ports réseaux (hub) ou au destinataire (Switch).<br>
+ <p>&nbsp;&nbsp;&nbsp;&nbsp;Toutes les stations sont connectées à un commutateur. SWITCH(HUB = concentrateur) : Les stations émettent vers ce concentrateur qui renvoie les données vers tous les autres ports réseaux (hub) ou au destinataire (Switch).</p>
  <b>Les réseaux en anneau :</b><br>
- &nbsp;&nbsp;&nbsp;&nbsp;Les ordinateurs sont situés sur une boucle et communiquent chacun à leur tour. Elle utilise la méthode d'accès à « jeton ». Les données transitent de stations en stations en suivant l'anneau qui chaque fois régénèrent le signal.<br>
+ <p>&nbsp;&nbsp;&nbsp;&nbsp;Les ordinateurs sont situés sur une boucle et communiquent chacun à leur tour. Elle utilise la méthode d'accès à « jeton ». Les données transitent de stations en stations en suivant l'anneau qui chaque fois régénèrent le signal.</p>
 <b>Maillée:</b><br>
-&nbsp;&nbsp;&nbsp;&nbsp;Internet est une topologie maillée sur le réseau étendu « WAN ». Les réseaux maillés utilisent plusieurs chemins de transferts. C'est une structure réseau hybride reprenant un câblage en étoile regroupant différents nœuds de réseaux.<br>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;Internet est une topologie maillée sur le réseau étendu « WAN ». Les réseaux maillés utilisent plusieurs chemins de transferts. C'est une structure réseau hybride reprenant un câblage en étoile regroupant différents nœuds de réseaux.</p><br>
 
         </p>
     </div>
     <div id="chap3">
         <h3>Chapitre III: Les modèle OSI</h3>
-        <p><br>
-        <ol>
+            <div class="box"><img src="Chapitre3 image.jpg"></div>
+            <div class="info">
+                <ul>
+                    <li><p>OMANI Ahmed Amine/212131093550/MI/Section3/Groupe2</p></li>
+                    <li><p>NAKIB Zahra/202031028292/MI/Section3/Groupe2</p></li>
+                </ul>
+            </div>
+            <p><br>
+                <ol>
             <span><li><span>Les composants matériel d'un réseau informatique:</span></li></span>
-     <b>1-Les cartes réseau(NIC):</b><br> &nbsp;&nbsp;&nbsp;&nbsp;Sont des composants installées à l'intérieur de l'ordinateur pour lui permettre de se connecter à un réseau tel qu'internet ou bien un réseau local , par une prise Ethernet ou WI-FI. Ces cartes sont responable de permettre à l'ordinateur de transmettre et de recevoir des donnée par des protocoles de communication spécifiques.<br>
-     <b>2-Le Switch:</b><br> &nbsp;&nbsp;&nbsp;&nbsp;Le commutateur réseau est utulisé pour connecter des appareils sur un réseu local et permet la communication entre eux en utilisant leurs adresses  MAC stocker dans une table de correspondance à l'interieure du Switch,où l'orsqu'un appareil souhaite communiquer avec un autre le switch utilise cette table pour envoyer les données à l'appareil destinataire uniquement. Les commutateur réseau sont disponibles en différentes tailles, petits pour les réseaux domestiques et des Switch de niveau entreprise pour des plus grands réseaux.<br>
-     <b>3-HUB:</b><br> &nbsp;&nbsp;&nbsp;&nbsp;Le concentrateur est utilisé pour connecter plusieurs appareil sur un réseau local(LAN).Le hub reçoit les données envoyées par un appareil et les transmet à tous les appareils connectés contrairement à un switch qui les envoient seulement à l'appareil destinataire , et c'est pour ça les hubs ont été largement remplacés par des switch pour une communication plus rapide et sécurisée entre les appareils connectés(les hubs sont encore utilisés dans des réseau de petite taille).<br>
+     <b>1-Les cartes réseau(NIC):</b><br> <p>&nbsp;&nbsp;&nbsp;&nbsp;Sont des composants installées à l'intérieur de l'ordinateur pour lui permettre de se connecter à un réseau tel qu'internet ou bien un réseau local , par une prise Ethernet ou WI-FI. Ces cartes sont responable de permettre à l'ordinateur de transmettre et de recevoir des donnée par des protocoles de communication spécifiques.</p>
+     <b>2-Le Switch:</b><br> <p>&nbsp;&nbsp;&nbsp;&nbsp;Le commutateur réseau est utulisé pour connecter des appareils sur un réseu local et permet la communication entre eux en utilisant leurs adresses  MAC stocker dans une table de correspondance à l'interieure du Switch,où l'orsqu'un appareil souhaite communiquer avec un autre le switch utilise cette table pour envoyer les données à l'appareil destinataire uniquement. Les commutateur réseau sont disponibles en différentes tailles, petits pour les réseaux domestiques et des Switch de niveau entreprise pour des plus grands réseaux.</p>
+     <b>3-HUB:</b><br> <p>&nbsp;&nbsp;&nbsp;&nbsp;Le concentrateur est utilisé pour connecter plusieurs appareil sur un réseau local(LAN).Le hub reçoit les données envoyées par un appareil et les transmet à tous les appareils connectés contrairement à un switch qui les envoient seulement à l'appareil destinataire , et c'est pour ça les hubs ont été largement remplacés par des switch pour une communication plus rapide et sécurisée entre les appareils connectés(les hubs sont encore utilisés dans des réseau de petite taille).</p>
      <span><li>Le modéle OSI:</li></span>
-    <b>-Définition:</b><br> &nbsp;&nbsp;&nbsp;&nbsp;OSI est un modèle de référence pour les communications de réseau , il est souvent utilisé comme référence pour la conception et la mise en oeuvre de réseaux informatiques. Ce modéle consiste à diviser la communication entre les appareils de réseau en sept couches :<br>
-    &nbsp;&nbsp;•La couche physique: Responsable de la transmission des données sur le support physique.<br>
-    &nbsp;&nbsp;•La couche liasion de données: Responsable de la transmission des données entre les appareils qui ont le même support physique.<br>
-    &nbsp;&nbsp;•La couche réseau : Responsable du routage des données à travers le réseau.<br>
+    <b>-Définition:</b><br> <p>&nbsp;&nbsp;&nbsp;&nbsp;OSI est un modèle de référence pour les communications de réseau , il est souvent utilisé comme référence pour la conception et la mise en oeuvre de réseaux informatiques. Ce modéle consiste à diviser la communication entre les appareils de réseau en sept couches :</p>
+    <p>&nbsp;&nbsp;• La couche physique: Responsable de la transmission des données sur le support physique.<br>
+    &nbsp;&nbsp;• La couche liasion de données: Responsable de la transmission des données entre les appareils qui ont le même support physique.<br>
+    &nbsp;&nbsp;• La couche réseau : Responsable du routage des données à travers le réseau.<br>
     &nbsp;&nbsp;• La couche transport : Responsable de l'acheminement des données de bout en bout entre les appareils.<br>
     &nbsp;&nbsp;• La couche session : Responsable de l'établissement et de la gestion des sessions entre les appareils.<br>
     &nbsp;&nbsp;• La couche présentation : Responsable de la conversion des données dans un format qui peut être compris par l'appareil de destination.<br>
-    &nbsp;&nbsp;• La couche application : Responsable de la communication entre les applications sur les appareils de réseau.<br>
- <b>-Remarque:</b><br> &nbsp;&nbsp;&nbsp;&nbsp;Le modéle OSI est un modéle de référence théorique et n'est pas utilisé dans les protocoles de communication réseau moderne mais il reste utile pour comprendre les principes fondamenteaux de la communication réseau.<br>
+    &nbsp;&nbsp;• La couche application : Responsable de la communication entre les applications sur les appareils de réseau.</p>
+ <b>-Remarque:</b><br> <p>&nbsp;&nbsp;&nbsp;&nbsp;Le modéle OSI est un modéle de référence théorique et n'est pas utilisé dans les protocoles de communication réseau moderne mais il reste utile pour comprendre les principes fondamenteaux de la communication réseau.</p>
  <span><li>Le modèle TCP/IP:</li></span>
-    <b>-Définition:</b><br> &nbsp;&nbsp;&nbsp;&nbsp;Le modèle TCP/IP est un modèle de référence  pour les communications de réseau, qui est utilisé pour la conception et la mise en œuvre des réseaux informatiques modernes.Le modèle TCP/IP divise les communications en 4 couches principal:<br>
+    <b>-Définition:</b><br> <p>&nbsp;&nbsp;&nbsp;&nbsp;Le modèle TCP/IP est un modèle de référence  pour les communications de réseau, qui est utilisé pour la conception et la mise en œuvre des réseaux informatiques modernes.Le modèle TCP/IP divise les communications en 4 couches principal:<br>
     &nbsp;&nbsp;• La couche liaison de données: cette couche est responsable de la transmission des données sur le support physique.<br>
     &nbsp;&nbsp;• La couche réseau: : cette couche est responsable du routage des données à travers le réseau.<br>
     &nbsp;&nbsp;• La couche transport: cette couche est responsable de l'acheminement des données de bout en bout entre les appareils.<br>
-    &nbsp;&nbsp;• La couche application: cette couche est responsable de la communication entre les applications sur les appareils de réseau.<br>
+    &nbsp;&nbsp;• La couche application: cette couche est responsable de la communication entre les applications sur les appareils de réseau.</p>   
 <span><li>L'adressage:</li></span>
    <b>-Les communications dans un réseau obéissent à des règles :</b><br>
-   &nbsp;&nbsp;• Adressage: Permet d'identifier de manière unique les deux unités en communication.<br>
+   <p>&nbsp;&nbsp;• Adressage: Permet d'identifier de manière unique les deux unités en communication.<br>
    &nbsp;&nbsp;• Architecture: Définit les rôles endossés par les deux unités.<br>
-   &nbsp;&nbsp;• Protocoles: Assurent l'échange des données.<br>
+   &nbsp;&nbsp;• Protocoles: Assurent l'échange des données.</p>
      <b>-L'adressage IP :</b><br>
-     &nbsp;&nbsp;&nbsp;&nbsp;Une adresse IP  est le numéro qui identifie chaque ordinateur dans les réseaux qu'il appartient. Il y'a deux mode d'adressage IPV4 et IPV6 :<br>
+     <p>&nbsp;&nbsp;&nbsp;&nbsp;Une adresse IP  est le numéro qui identifie chaque ordinateur dans les réseaux qu'il appartient. Il y'a deux mode d'adressage IPV4 et IPV6 :</p>
      <b>1. ADRESSE IPV4:</b><br>
-     &nbsp;&nbsp;&nbsp;a. Chaque paquet contient : adresse source sur 32 bits,et une adresse destinataire sur 32 bits.<br>
-     &nbsp;&nbsp;&nbsp;b. Donc IPV4 == 4 octets == 32bits, représenter par 4 chiffres en décimale séparé par des points(chaque chifre regroupe un octes).<br>
+     <p>&nbsp;&nbsp;&nbsp;a. Chaque paquet contient : adresse source sur 32 bits,et une adresse destinataire sur 32 bits.<br>
+     &nbsp;&nbsp;&nbsp;b. Donc IPV4 == 4 octets == 32bits, représenter par 4 chiffres en décimale séparé par des points(chaque chifre regroupe un octes).</p>
       <b>2. ADRESSE IPV6 :</b> <br>
-      &nbsp;&nbsp;&nbsp;a. Les adresses sont codées sur 128 bits. La représentation textuelle se fait en découpant le mot de 128 bits de l'adresse en 8 mots de 16 bits séparés par le caractère «:», chacun d'eux est en hexadécimal.<br>
+      <p>&nbsp;&nbsp;&nbsp;a. Les adresses sont codées sur 128 bits. La représentation textuelle se fait en découpant le mot de 128 bits de l'adresse en 8 mots de 16 bits séparés par le caractère «:», chacun d'eux est en hexadécimal.</p>
   <span><li>L'adresse IPV4:</li></span>
- • Chaque adresse IPV4 contient  deux parties:<br>
- &nbsp;&nbsp;o Une première partie des bits: Adresse réseau.<br> 
+ <p>• Chaque adresse IPV4 contient  deux parties:</p>
+ <p>&nbsp;&nbsp;o Une première partie des bits: Adresse réseau.<br> 
  &nbsp;&nbsp;o Une deuxième parties des bits: Adresse hôte.<br>
  • On reconnait qu'un réseau est un {hôte} quand la valeur des bits pour la partie réseau est lamême.<br>
  • Le nombre des bits contenus dans la partie hôtes détermine le nombre des machines possible sur ce réseau.<br>
- •l'adressage IPV4 s'effectué selon les types suivants :<br>
-<b>1) L'adresse réseau:</b>  Tous les bits de la partie hôtes=0,c'est-à-dire tous les hôtes(machines) de ce réseau ont la même partie réseau.<br>
-<b>2) L'adresse de diffusion:</b> il s'agit d'une adresse dans laquelle tous les bits de partie   hôtes=1,pour le réseau. Cette adresse permette à un pc d'envoyer des paquets à l'adresse de diffusion de réseau, et tous les hôtes de cette adresse reçoivent ces données, sans qu'il distribue un paquet pour chaque pc d'une manière unique.<br>
-<b>3) L'adresse hôtes :</b> On attribue les valeurs situés entre l'adresse réseau et l'adresse de
-diffusion sur machines situé sur cette réseau.<br>
-<b>4) Le masque de réseau et de sous réseaux :</b> Tous les bits de la partie réseaux = 1.<br>
+ •l'adressage IPV4 s'effectué selon les types suivants :</p>
+<b>1) L'adresse réseau:</b>  <p>Tous les bits de la partie hôtes=0,c'est-à-dire tous les hôtes(machines) de ce réseau ont la même partie réseau.</p>
+<b>2) L'adresse de diffusion:</b> <p>il s'agit d'une adresse dans laquelle tous les bits de partie   hôtes=1,pour le réseau. Cette adresse permette à un pc d'envoyer des paquets à l'adresse de diffusion de réseau, et tous les hôtes de cette adresse reçoivent ces données, sans qu'il distribue un paquet pour chaque pc d'une manière unique.</p>
+<b>3) L'adresse hôtes :</b><p>On attribue les valeurs situés entre l'adresse réseau et l'adresse de
+diffusion sur machines situé sur cette réseau.</p>
+<b>4) Le masque de réseau et de sous réseaux :</b> <p>Tous les bits de la partie réseaux = 1.</p><br>
         </ol>
         </p>
     </div>
     <div id="chap4">
         <h3>Chapitre IV: L'internet et le Web</h3>
-        <p></p>
+            <div class="box"><img src="html1.jpg"></div>
+            <div class="info">
+                <ul>
+                    <li><p>BOUKECHICHE Ishak/212137038994/MI/Section3/Groupe2</p></li>
+                    <li><p>BOUANANE Adel/212132070068/MI/Section3/Groupe2</p></li>
+                </ul>
+            </div>
+            <p><br>
+                <ol>
+            <span><li>Introduction: </li></span>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;Le WWW, est un système hypertexte public sur Internet. Il permet de consulter des pages web via un navigateur, en utilisant des hyperliens pour relier les pages entre elles. Le Web est une partie d'Internet et a été inventé par Tim Berners-Lee et Robert Cailliau.
+Le Web permet d'accéder à des documents textuels situés sur des machines accessibles via Internet. Il permet également de servir des ressources de différentes natures telles que du texte, des images, des sons, des vidéos et des contenus interactifs.
+Les URL (Uniform Resource Locator) sont des liens hypertexte qui permettent d'accéder à une page en spécifiant l'adresse du serveur et l'adresse .</p><br>
+<b>Les trois mécanismes de base du Web sont les suivantss:</b><br>
+<strong>URL :</strong> <p>pour localiser les ressources par le protocole DNS.</p>
+<strong>HTTP :</strong> <p>est un protocole de niveau applicatif basé sur le paradigme client-serveur. Il est sans état.</p>
+<strong>HTML :</strong> <p>est un langage de description de pages web qui permet de créer des documents multimédias . Il est interprété par les navigateurs.</p>
+<span><li>Page web et site web:</li></span>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;Une page web est un document multimédia avec du texte, des images, des interactions et des liens. Elle est décrite avec HTML, XHTML ou HTML5, et stockée dans un fichier avec une extension comme .html ou .xhtml. Les navigateurs web l'affichent et on y accède via une URL. Une page web permet de naviguer vers d'autres pages via des liens. Un site web est un ensemble de pages web liées entre elles autour d'un thème commun. Il est créé par une même entité et accessible depuis une page d'accueil et une URL commune. Les sites web sont généralement hébergés sur un serveur et organisés en dossiers et fichiers. Ils utilisent des chemins relatifs pour définir les emplacements des fichiers.</p>
+<span><li>Création d’une page web HTML:</li></span>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;HTML est un langage utilisé pour créer des pages web. Un document HTML est un fichier texte avec des balises qui structurent le contenu. Les documents HTML sont affichés dans les navigateurs web. On peut créer des documents HTML avec des éditeurs de pages web ou des éditeurs de texte. Les principes de base comprennent les balises &lt;html&gt;, &lt;head&gt;, &lt;title&gt;, et &lt;body&gt;. Les titres sont définis avec les balises &lt;hn&gt;, et les paragraphes avec les balises &lt;p&gt;.</p>
+
+        </p></ol>
     </div>
     <div id="chap5">
         <h3>Chapitre V: Système de Gestion de Version</h3>
-        <p></p>
+                <div class="box"><img src="Chapître5 image.jpg"></div>
+                <div class="info">
+                    <ul>
+                        <li><p>BASSOU Hamza Khaled/212132032774/MI/Section3/Groupe2</p></li>
+                        <li><p>AOUNI Wassim/191931089423/MI/Section3/Groupe2</p></li>
+                    </ul>
+                </div>
+                <p><br>
+                    <ol>
+                <span><li>Qu'est ce que Git:</li></span>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;Git est un logiciel de gestion de version créé par Linus Torvalds en 2005 pour faciliter
+            la collaboration et le suivi des modifications dans les projets de développement de
+            logiciels. En d'autres termes, Git permet à plusieurs personnes de travailler sur un
+            même projet et de suivre les modifications apportées aux fichiers au fil du temps.</p>
+                <span><li>Les modèles de gestions de versions:</li></span>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;Il y a 2 logiciels de gestion de version : le modèle centralisé et le modèle
+            décentralisé. Dans un modèle centralisé, le code source du projet est hébergé sur un
+            serveur central distant, tandis que dans un modèle décentralisé, chaque utilisateur
+            télécharge et héberge le code source sur sa propre machine. Le modèle décentralisé
+            est présenté comme étant plus simple et flexible pour les utilisateurs, ainsi que plus
+            sécurisé, car chaque utilisateur possède une copie complète du code en cas de
+            corruption du serveur central.</p>
+                <span><li>Github:</li></span>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;GitHub est un service en ligne qui héberge des dépôts Git. Les dépôts sont des
+            copies de l'intégralité des fichiers d'un projet et de leurs versions situées sur un
+            serveur central. GitHub permet de contribuer à des projets en proposant de nouvelles
+            fonctionnalités. Git est un logiciel de gestion de version utilisé avec GitHub.<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;Un "dépôt" correspond à l'ensemble des fichiers d'un projet importé dans Git et qu'il y
+            a deux façons de créer un dépôt Git : importer un répertoire existant ou cloner un
+            dépôt Git existant.<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;Dans Git, les données sont stockées sous forme d'instantanés ou "snapshots".
+            Lorsqu'un utilisateur enregistre l'état d'un projet dans Git, Git prend une capture de
+            l'état du contenu de l'espace de travail à ce moment-là et enregistre une référence à
+            cet instantané pour un accès ultérieur. Chaque instantané est stocké dans une base
+            de données locale. Étant donné que Git dispose de l'historique complet d'un projet
+            localement, la majorité des opérations de Git peuvent être réalisées localement, ce
+            qui rend le travail plus rapide et plus agréable.<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;Dans Git, un fichier peut être soit “suivi” soit non “suivi” . Les fichiers sont considérés
+            comme “suivis” s'ils appartiennent au dernier instantané capturé par Git et donc
+            stockés dans la base de données locale. Chaque fichier suivi peut avoir trois états:
+            modifié, indexé et validé. Un fichier modifié est considéré comme modifié par Git tant
+            qu'il n'a pas été indexé. On indexe un fichier lorsqu'on lui indique qu'il doit faire partie
+            du prochain instantané dans sa version actuelle. Enfin, lorsqu'on demande à Git de
+            prendre l'instantané, les fichiers faisant partie de l'instantané sont considérés
+            comme validés et le cycle recommence. Un fichier “non suivi” en revanche, est un
+            fichier qui n'est pas inclus dans le dernier instantané capturé par Git et n'est donc pas
+            stocké dans la base de données locale.</p>
+            <span><li>Gérer un dépôt Git:</li></span>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;Il est possible d'importer toutes les ressources d'un projet existant dans Git en
+            utilisant la commande "git init" pour initialiser un dépôt Git. Pour indexer des fichiers,
+            on utilise la commande "git add", puis on utilise la commande "git commit" pour
+            valider ces fichiers et les ajouter en base.<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;La deuxième façon de démarrer un dépôt Git est de cloner localement un dépôt Git
+            déjà existant en utilisant la commande "git clone". Lorsqu'on travaille sur un projet
+            avec Git, on doit utiliser les commandes "git add" et "git commit" pour enregistrer les
+            modifications apportées aux fichiers dans le dépôt Git. La commande "git log"
+            permet de consulter l'historique des modifications Git.<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;En utilisant la commande "git checkout" ou "git restore", il est possible d'annuler les
+            modifications apportées à un fichier si les résultats ne sont pas ceux escomptés.
+            Enfin, une branche en Git est simplement un pointeur vers un commit spécifique qui
+            permet de créer de nouvelles branches pour tester des fonctionnalités sans affecter
+            la branche principale.</p><br>
+            </ol>
+        </p>
     </div>
     </div>
+</div>
 </div>
 
 
